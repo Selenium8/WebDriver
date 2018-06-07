@@ -1,0 +1,10 @@
+
+<suite name="Sample">
+  <test name="Regression">
+    <classes>
+      <class name="testng.AddEmpTest"/>
+      <class name="testng.EmpList"/>
+      
+    </classes>
+  </test> 
+</suite> 

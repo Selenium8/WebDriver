@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Grid Demo Suite" duration-ms="11819" started-at="2018-06-07T04:35:33Z" finished-at="2018-06-07T04:35:45Z">
+    <groups>
+    </groups>
+    <test name="Login on Chrome" duration-ms="8637" started-at="2018-06-07T04:35:33Z" finished-at="2018-06-07T04:35:42Z">
+      <class name="com.grid.CrossBrowserTest">
+        <test-method status="PASS" signature="dropdownTest(java.lang.String)[pri:0, instance:com.grid.CrossBrowserTest@482f8f11]" name="dropdownTest" duration-ms="8602" started-at="2018-06-07T10:05:33Z" finished-at="2018-06-07T10:05:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dropdownTest -->
+      </class> <!-- com.grid.CrossBrowserTest -->
+    </test> <!-- Login on Chrome -->
+    <test name="Login on Firefox" duration-ms="11819" started-at="2018-06-07T04:35:33Z" finished-at="2018-06-07T04:35:45Z">
+      <class name="com.grid.CrossBrowserTest">
+        <test-method status="PASS" signature="dropdownTest(java.lang.String)[pri:0, instance:com.grid.CrossBrowserTest@6cc4c815]" name="dropdownTest" duration-ms="11792" started-at="2018-06-07T10:05:33Z" finished-at="2018-06-07T10:05:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dropdownTest -->
+      </class> <!-- com.grid.CrossBrowserTest -->
+    </test> <!-- Login on Firefox -->
+  </suite> <!-- Grid Demo Suite -->
+</testng-results>

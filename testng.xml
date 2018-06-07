@@ -1,0 +1,11 @@
+
+<suite name="ORHR">
+  <test name="Smoke">
+    <classes>
+      <class name="testng.SampleTest"/>
+      <class name="testng.AdminLoginTest"/>
+      <class name="testng.Annotations"/>
+      
+    </classes>
+  </test> 
+</suite> 
